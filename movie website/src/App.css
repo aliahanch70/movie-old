@@ -1,0 +1,26 @@
+.container{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.page-number{
+  display: flex;
+  text-align: center;
+  justify-content: space-around;
+  padding: 2px 20%;
+
+}
+.page-number p{
+  padding: 15px;
+ background-color: #880E4F;
+  text-decoration: none;
+  color: wheat;
+  border-radius: 5px;
+}
+.page-number p:active{
+  background-color: #ae1168;
+}
+.page-number p:focus{
+  background-color: #ae1168;
+}
